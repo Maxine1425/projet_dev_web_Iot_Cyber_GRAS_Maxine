@@ -1,7 +1,7 @@
 <?php
     include ("include/config.php");
     EstConnecte();
-    $id_grille=$SESSION['id_grille'];
+    //$id_grille=$SESSION['id_grille'];
 
     if(isset($_POST["x"]) /*&& isset($_POST["y"]) && isset($_POST["color"])*/)
     {
@@ -23,11 +23,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grille</title>
-        <link rel="stylesheet" href="../css/style.css?1">
+        <link  href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <h1>PixelWar</h1>
-        <?php echo "Grille crée par : ".$id_grille ?>
         <div>
         <colors>
             <color id="color-white" title="white"></color>

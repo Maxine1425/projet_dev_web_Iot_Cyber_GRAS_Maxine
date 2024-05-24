@@ -25,7 +25,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grille</title>
-        <link rel="stylesheet" href="../css/style.css?1">>
+        <link  href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <h1>Créer une nouvelle grille</h1>
